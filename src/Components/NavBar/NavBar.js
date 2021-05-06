@@ -1,17 +1,24 @@
 import React from 'react';
+import {Navbar, Nav} from 'react-bootstrap'
 import './NavBar.css'
 
 
 const NavBar = () => {
     return (
 
-        <nav className='navbar navbar-dark bg-dark justify-content-center'>
-            <h5 className='navbarName'>Joseph J Lyons</h5>
-             <a class="navbar-brand" href="#">About</a>
-             <a class="navbar-brand" href="#">Portfolio</a>
-        </nav>
+        <Navbar bg="light" expand="lg">
+        <Navbar.Brand href="#home">Joseph J Lyons</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="mr-auto">
+            <Nav.Link href="#aboutme">About Me</Nav.Link>
+            <Nav.Link href='#portfolio'>Portfolio</Nav.Link>
+            
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
 
     );
 };
 
-export default NavBar
+export default NavBar;
