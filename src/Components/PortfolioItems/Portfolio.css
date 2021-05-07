@@ -2,13 +2,13 @@ Image{
     height: 40px;
 }
 
-.jumbotron{
+.portJumbo {
     color: cyan;
     text-align:center;
     border: solid 2px white;
     padding: 5px;
     background-color: black;
-    background: linear-gradient(-45deg, #ff2727,rgb(117, 0, 0),black, #ff2727) ;
+    background: linear-gradient(-45deg, #3d0000,rgb(0, 0, 0),black, #3d0000) ;
     background-size: 400% 400%;
     animation: gradient 12s ease infinite;
   }
@@ -24,5 +24,14 @@ Image{
       background-position: 0% 50%;
     }
 }
+
+.listGroup{
+  text-decoration-color: white !important;
+}
+
+.textLink{
+  color: blue;
+}
+
 
 
