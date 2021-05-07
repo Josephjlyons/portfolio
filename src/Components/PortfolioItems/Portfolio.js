@@ -37,7 +37,7 @@ const Project = () => {
                             <p>This site allows the user to enter a zip code and receive the name, address, phone number, URL, and type of all the breweries that are local to the zip code.
                                     The user is given the option save up to five locations to their favorites.</p>
                             <p>Built With</p>
-                            <ListGroup className='techList'>
+                            <ListGroup>
                                 <ListGroup.Item>Map Quest API</ListGroup.Item>
                                 <ListGroup.Item>OpenBreweryDB API</ListGroup.Item>
                                 <ListGroup.Item>Materialize</ListGroup.Item>
@@ -111,11 +111,11 @@ const Project = () => {
                                 An easy and simple UI that allows the user to easily manage notes.
                             </p>
                             <p>Built With</p>
-                            <ListGroup className='techList'>
-                                <ListGroup.Item>Map Quest API</ListGroup.Item>
-                                <ListGroup.Item>OpenBreweryDB API</ListGroup.Item>
-                                <ListGroup.Item>Materialize</ListGroup.Item>
+                            <ListGroup>
+                                <ListGroup.Item>Node.js</ListGroup.Item>
+                                <ListGroup.Item>Express.js</ListGroup.Item>
                                 <ListGroup.Item>JavaScript</ListGroup.Item>
+                                <ListGroup.Item>BootStrap</ListGroup.Item>
 
                             </ListGroup>
 
@@ -147,11 +147,11 @@ const Project = () => {
                                 A simple backend application that generates a formatted HTML page.
                         Complete with cards per each employee role (Manager, Engineer, Intern) and their respective details.</p>
                             <p>Built With</p>
-                            <ListGroup className='techList'>
-                                <ListGroup.Item>Map Quest API</ListGroup.Item>
-                                <ListGroup.Item>OpenBreweryDB API</ListGroup.Item>
-                                <ListGroup.Item>Materialize</ListGroup.Item>
-                                <ListGroup.Item>JavaScript</ListGroup.Item>
+                            <ListGroup>
+                                <ListGroup.Item>Node.js</ListGroup.Item>
+                                <ListGroup.Item>Inquirer</ListGroup.Item>
+                                <ListGroup.Item>Jest</ListGroup.Item>
+                                <ListGroup.Item>Bulma</ListGroup.Item>
 
                             </ListGroup>
 
@@ -183,11 +183,11 @@ const Project = () => {
                                 Once done, clicking to the dashboard the user will be able to see their workout stats from the previous seven days.
                         Clicking on a certain workout in either the duration or workout will alter the chart and reflect changes.</p>
                             <p>Built With</p>
-                            <ListGroup className='techList'>
-                                <ListGroup.Item>Map Quest API</ListGroup.Item>
-                                <ListGroup.Item>OpenBreweryDB API</ListGroup.Item>
-                                <ListGroup.Item>Materialize</ListGroup.Item>
-                                <ListGroup.Item>JavaScript</ListGroup.Item>
+                            <ListGroup>
+                                <ListGroup.Item>DotEnv</ListGroup.Item>
+                                <ListGroup.Item>Express.js</ListGroup.Item>
+                                <ListGroup.Item>Mongoose</ListGroup.Item>
+                                <ListGroup.Item>NoSQL</ListGroup.Item>
 
                             </ListGroup>
                             <a className='linkText' href="https://rocky-waters-93224.herokuapp.com/" target="_blank" rel="noreferrer noopener" class="btn btn-lg">View the Website!</a>
@@ -216,11 +216,11 @@ const Project = () => {
                                 An application made with TypeScript that allows the user to input a title, description and the number of people working on the project. A key feature of this application
                                     is that it allows the user to drag active projects into the finished project box. </p>
                             <p>Built With</p>
-                            <ListGroup className='techList'>
-                                <ListGroup.Item>Map Quest API</ListGroup.Item>
-                                <ListGroup.Item>OpenBreweryDB API</ListGroup.Item>
-                                <ListGroup.Item>Materialize</ListGroup.Item>
-                                <ListGroup.Item>JavaScript</ListGroup.Item>
+                            <ListGroup>
+                                <ListGroup.Item>TypeScript</ListGroup.Item>
+                                <ListGroup.Item>TsConfig</ListGroup.Item>
+                                <ListGroup.Item>Component Based</ListGroup.Item>
+                                <ListGroup.Item>Proper File Structure</ListGroup.Item>
 
                             </ListGroup>
 
