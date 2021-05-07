@@ -1,0 +1,51 @@
+.jumbo{
+    background: black;
+    color:white;
+    text-align:center;
+    border: solid 2px white;
+    padding: 5px;
+    background-color: black;
+} 
+
+/* .jumbo {
+    color: cyan;
+    text-align:center;
+    border: solid 2px white;
+    padding: 5px;
+    background-color: black;
+    background: linear-gradient(-45deg, #3d0000,rgb(0, 0, 0),black, #3d0000) ; 
+    background-size: 400% 400%;
+    animation: gradient 12s ease infinite;
+  } 
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+} */
+
+.fontawesome{
+    font-size: 50px;
+    
+}
+
+.social :hover{
+transform: scale(1.5);
+transition: .2s ease-in;
+align-items: center;
+
+}
+
+.social{
+    padding: 10px;
+}
+
+.particles{
+margin-top: -400px;
+}
