@@ -17,17 +17,17 @@ const Project = () => {
         <>
 
             <Jumbotron className='portJumbo' fluid>
-                <Container>
-                    <h1>Portfolio and Projects</h1>
+                <Container id='Portfolio'>
+                    <h1 >Portfolio and Projects</h1>
                 </Container>
             </Jumbotron>
             {/* Project Split */}
 
-            <Carousel className='carousel' fade activeIndex={index} onSelect={handleSelect}>
+            <Carousel className='carousel' interval={null} fade activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h1>Draught Picker</h1>
+                            <h1 className='projTitle'>Draught Picker</h1>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -66,7 +66,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h1>Dungeons and Dragon Quick Character Creator Express</h1>
+                            <h1  className='projTitle'>Dungeons and Dragon Quick Character Creator Express</h1>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -104,7 +104,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h1>Express Notes</h1>
+                            <h1  className='projTitle'>Express Notes</h1>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -117,7 +117,7 @@ const Project = () => {
                                 </Col>
                                 <Col>
                                     <p>
-                                        A backend that uses various technologies that allows the user to create, store and delete notes.
+                                        A backend application that uses various technologies that allows the user to create, store and delete notes.
                                         An easy and simple UI that allows the user to easily manage notes.
                             </p>
                                     <h5 className='built'>Built With</h5>
@@ -141,7 +141,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h1>Team Generator</h1>
+                            <h1  className='projTitle'>Team Generator</h1>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -177,7 +177,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h1>Fitness Tracker</h1>
+                            <h1  className='projTitle'>Fitness Tracker</h1>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -213,7 +213,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h1>Drag and Drop Project Management</h1>
+                            <h1  className='projTitle'>Drag and Drop Project Management</h1>
                             <Row>
                                 <Col>
                                     <Figure.Image
