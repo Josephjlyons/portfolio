@@ -1,14 +1,14 @@
 Image{
-    height: 40px;
-}
+  height: 40px;
+} 
 
 .portJumbo {
-    color: cyan;
-    text-align:center;
-    border: solid 2px white;
-    padding: 5px;
-    background-color: black;
-    background: linear-gradient(-45deg, #3d0000,rgb(0, 0, 0),black, #3d0000) ;
+  color: cyan;
+  text-align:center;
+  border: solid 2px white;
+  padding: 5px;
+  background-color: black;
+  background: linear-gradient(-45deg, #490101,rgb(0, 0, 0),black, #490101) ;
     background-size: 400% 400%;
     animation: gradient 12s ease infinite;
   }
@@ -23,15 +23,24 @@ Image{
     100% {
       background-position: 0% 50%;
     }
+  }
+  
+  .carousel{
+  background: black;
 }
 
-.listGroup{
-  text-decoration-color: white !important;
+.list-group-item{
+color:cyan;
 }
 
-.textLink{
+.btn{
   color: blue;
 }
 
+.built{
+  text-decoration: underline !important;
+}
+
+@import 'bootstrap/dist/css/bootstrap.min.css'
 
 

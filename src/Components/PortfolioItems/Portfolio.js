@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React, { useState } from 'react';
 import { Jumbotron, Container, ListGroup, Row, Col, Figure, Carousel } from 'react-bootstrap'
 import './Portfolio.css';
 import draughtwebimage from '../assets/draughtwebimage.png';
@@ -23,7 +23,7 @@ const Project = () => {
             </Jumbotron>
             {/* Project Split */}
 
-            <Carousel fade activeIndex={index} onSelect={handleSelect}>
+            <Carousel className='carousel' fade activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
@@ -44,7 +44,7 @@ const Project = () => {
 
                                     <p>This site allows the user to enter a zip code and receive the name, address, phone number, URL, and type of all the breweries that are local to the zip code.
                                     The user is given the option save up to five locations to their favorites.</p>
-                                    <p>Built With</p>
+                                    <h5 className='built'>Built With</h5>
                                     <ListGroup className='listGroup'>
                                         <ListGroup.Item className='tech-list bg-transparent'>Map Quest API</ListGroup.Item>
                                         <ListGroup.Item className='tech-list bg-transparent'>OpenBreweryDB API</ListGroup.Item>
@@ -82,7 +82,7 @@ const Project = () => {
                                         Have you ever needed to make a Dungeons and Dragons character on the fly? Well look no further!
                                         Making a new character to play with can take quite a bit of time and who has time to waste when you just want to play.
                             This app allows users to easily create new characters fast with generated stats that would meet all the criteria needed to start or jump into a campaign!</p>
-                                    <p>Built With</p>
+                                    <h5 className='built'>Built With</h5>
                                     <ListGroup>
                                         <ListGroup.Item className='tech-list bg-transparent'>Node.js</ListGroup.Item>
                                         <ListGroup.Item className='tech-list bg-transparent'>Express.js</ListGroup.Item>
@@ -120,7 +120,7 @@ const Project = () => {
                                         A backend that uses various technologies that allows the user to create, store and delete notes.
                                         An easy and simple UI that allows the user to easily manage notes.
                             </p>
-                                    <p>Built With</p>
+                                    <h5 className='built'>Built With</h5>
                                     <ListGroup>
                                         <ListGroup.Item className='tech-list bg-transparent'>Node.js</ListGroup.Item>
                                         <ListGroup.Item className='tech-list bg-transparent'>Express.js</ListGroup.Item>
@@ -157,7 +157,7 @@ const Project = () => {
                                     <p>
                                         A simple backend application that generates a formatted HTML page.
                         Complete with cards per each employee role (Manager, Engineer, Intern) and their respective details.</p>
-                                    <p>Built With</p>
+                                    <h5 className='built'>Built With</h5>
                                     <ListGroup>
                                         <ListGroup.Item className='tech-list bg-transparent'>Node.js</ListGroup.Item>
                                         <ListGroup.Item className='tech-list bg-transparent'>Inquirer</ListGroup.Item>
@@ -194,7 +194,7 @@ const Project = () => {
                                         An application that allows the user to input new workouts and complete previous workouts.
                                         Once done, clicking to the dashboard the user will be able to see their workout stats from the previous seven days.
                         Clicking on a certain workout in either the duration or workout will alter the chart and reflect changes.</p>
-                                    <p>Built With</p>
+                                    <h5 className='built'>Built With</h5>
                                     <ListGroup>
                                         <ListGroup.Item className='tech-list bg-transparent'>DotEnv</ListGroup.Item>
                                         <ListGroup.Item className='tech-list bg-transparent'>Express.js</ListGroup.Item>
@@ -229,7 +229,7 @@ const Project = () => {
                                     <p>
                                         An application made with TypeScript that allows the user to input a title, description and the number of people working on the project. A key feature of this application
                                     is that it allows the user to drag active projects into the finished project box. </p>
-                                    <p>Built With</p>
+                                    <h5 className='built'>Built With</h5>
                                     <ListGroup>
                                         <ListGroup.Item className='tech-list bg-transparent'>TypeScript</ListGroup.Item>
                                         <ListGroup.Item className='tech-list bg-transparent'>TsConfig</ListGroup.Item>
