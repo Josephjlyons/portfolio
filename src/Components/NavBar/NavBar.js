@@ -6,11 +6,10 @@ import './NavBar.css'
 const NavBar = () => {
     return (
 
-        <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home"></Navbar.Brand>
+        <Navbar className="justify-content-center" bg="" expand="lg">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className='mr-auto'>
             <Nav.Link href="#aboutme">About Me</Nav.Link>
             <Nav.Link href='#portfolio'>Portfolio</Nav.Link>
             

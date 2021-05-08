@@ -9,5 +9,9 @@ h5 {
 .navbar-brand, .nav-link{
     font-family: cursive;
     text-decoration-line: underline;
-    color: white;
+    color: cyan !important;
+    
+
+    justify-content: center!important;
+  
 }
