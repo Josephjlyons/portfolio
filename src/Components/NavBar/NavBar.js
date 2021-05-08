@@ -1,23 +1,24 @@
 import React from 'react';
-import {Navbar, Nav} from 'react-bootstrap'
-import './NavBar.css'
+import { Link } from 'react-scroll';
+import { Navbar, Nav, Container } from 'react-bootstrap';
+import './NavBar.css';
 
 
 const NavBar = () => {
-    return (
+  return (
+    <div className='divNav'>
 
-        <Navbar className="justify-content-center" bg="" expand="lg">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className='mr-auto'>
-            <Nav.Link href="#aboutme">About Me</Nav.Link>
-            <Nav.Link href='#portfolio'>Portfolio</Nav.Link>
-            
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+      <Nav>
+        <ul className='navList'>
 
-    );
+          <li><Link to="About" spy={true} smooth={true}>About</Link></li>
+          <br />
+          <li><Link to="Portfolio" spy={true} smooth={true}>Portfolio</Link></li>
+        </ul>
+      </Nav>
+    </div>
+
+  );
 };
 
 export default NavBar;

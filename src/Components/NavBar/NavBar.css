@@ -1,17 +1,30 @@
 .navbar {
    background-color: black;
-  
+   
 }
 h5 {
     color: white;
 }
 
-.navbar-brand, .nav-link{
+.nav-link{
+    font-size: large;
+    background: black;
     font-family: cursive;
     text-decoration-line: underline;
-    color: cyan !important;
-    
-
-    justify-content: center!important;
-  
+    color: cyan!important;
 }
+
+.divNav{
+    background: black;
+    text-align: center;
+    color: cyan!important;
+    /* border: solid 2px white; */
+    
+}
+
+.navList{
+    cursor: pointer;
+    list-style: none;
+    
+}
+
