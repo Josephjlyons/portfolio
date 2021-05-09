@@ -18,7 +18,7 @@ const Project = () => {
 
             <Jumbotron className='portJumbo' fluid>
                 <Container id='Portfolio'>
-                    <h1 >Portfolio and Projects</h1>
+                    <h1 className='projPort'>Portfolio and Projects</h1>
                 </Container>
             </Jumbotron>
             {/* Project Split */}
@@ -27,7 +27,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h1 className='projTitle'>Draught Picker</h1>
+                            <h3 className='projTitle'>Draught Picker</h3>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -44,7 +44,7 @@ const Project = () => {
 
                                     <p>This site allows the user to enter a zip code and receive the name, address, phone number, URL, and type of all the breweries that are local to the zip code.
                                     The user is given the option save up to five locations to their favorites.</p>
-                                    <h5 className='built'>Built With</h5>
+                                    <p className='built'>Built With</p>
                                     <ListGroup className='listGroup'>
                                         <ListGroup.Item className='tech-list bg-transparent'>Map Quest API</ListGroup.Item>
                                         <ListGroup.Item className='tech-list bg-transparent'>OpenBreweryDB API</ListGroup.Item>
@@ -66,7 +66,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h1  className='projTitle'>Dungeons and Dragon Quick Character Creator Express</h1>
+                            <h3  className='projTitle'>Dungeons and Dragon Quick Character Creator Express</h3>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -82,7 +82,7 @@ const Project = () => {
                                         Have you ever needed to make a Dungeons and Dragons character on the fly? Well look no further!
                                         Making a new character to play with can take quite a bit of time and who has time to waste when you just want to play.
                             This app allows users to easily create new characters fast with generated stats that would meet all the criteria needed to start or jump into a campaign!</p>
-                                    <h5 className='built'>Built With</h5>
+                                    <p className='built'>Built With</p>
                                     <ListGroup>
                                         <ListGroup.Item className='tech-list bg-transparent'>Node.js</ListGroup.Item>
                                         <ListGroup.Item className='tech-list bg-transparent'>Express.js</ListGroup.Item>
@@ -104,7 +104,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h1  className='projTitle'>Express Notes</h1>
+                            <h3  className='projTitle'>Express Notes</h3>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -120,7 +120,7 @@ const Project = () => {
                                         A backend application that uses various technologies that allows the user to create, store and delete notes.
                                         An easy and simple UI that allows the user to easily manage notes.
                             </p>
-                                    <h5 className='built'>Built With</h5>
+                                    <p className='built'>Built With</p>
                                     <ListGroup>
                                         <ListGroup.Item className='tech-list bg-transparent'>Node.js</ListGroup.Item>
                                         <ListGroup.Item className='tech-list bg-transparent'>Express.js</ListGroup.Item>
@@ -141,7 +141,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h1  className='projTitle'>Team Generator</h1>
+                            <h3  className='projTitle'>Team Generator</h3>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -157,7 +157,7 @@ const Project = () => {
                                     <p>
                                         A simple backend application that generates a formatted HTML page.
                         Complete with cards per each employee role (Manager, Engineer, Intern) and their respective details.</p>
-                                    <h5 className='built'>Built With</h5>
+                                    <p className='built'>Built With</p>
                                     <ListGroup>
                                         <ListGroup.Item className='tech-list bg-transparent'>Node.js</ListGroup.Item>
                                         <ListGroup.Item className='tech-list bg-transparent'>Inquirer</ListGroup.Item>
@@ -177,7 +177,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h1  className='projTitle'>Fitness Tracker</h1>
+                            <h3  className='projTitle'>Fitness Tracker</h3>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -194,7 +194,7 @@ const Project = () => {
                                         An application that allows the user to input new workouts and complete previous workouts.
                                         Once done, clicking to the dashboard the user will be able to see their workout stats from the previous seven days.
                         Clicking on a certain workout in either the duration or workout will alter the chart and reflect changes.</p>
-                                    <h5 className='built'>Built With</h5>
+                                    <p className='built'>Built With</p>
                                     <ListGroup>
                                         <ListGroup.Item className='tech-list bg-transparent'>DotEnv</ListGroup.Item>
                                         <ListGroup.Item className='tech-list bg-transparent'>Express.js</ListGroup.Item>
@@ -213,7 +213,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h1  className='projTitle'>Drag and Drop Project Management</h1>
+                            <h3  className='projTitle'>Drag and Drop Project Management</h3>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -229,7 +229,7 @@ const Project = () => {
                                     <p>
                                         An application made with TypeScript that allows the user to input a title, description and the number of people working on the project. A key feature of this application
                                     is that it allows the user to drag active projects into the finished project box. </p>
-                                    <h5 className='built'>Built With</h5>
+                                    <p className='built'>Built With</p>
                                     <ListGroup>
                                         <ListGroup.Item className='tech-list bg-transparent'>TypeScript</ListGroup.Item>
                                         <ListGroup.Item className='tech-list bg-transparent'>TsConfig</ListGroup.Item>

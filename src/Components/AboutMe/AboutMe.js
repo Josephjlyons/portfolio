@@ -7,21 +7,39 @@ const AboutMe = () => {
         <Jumbotron className='AboutJumbo' fluid>
             <Container id='About'>
                 <h1 id='AboutMe'>About Me</h1>
-                <p> BACON
+                <p>
 
-                Spicy jalapeno bacon ipsum dolor amet buffalo tri-tip jerky flank. Beef strip steak short ribs,
-                ribeye landjaeger spare ribs brisket pork chop shoulder tail porchetta. Boudin pork loin swine ball tip meatloaf, short loin pastrami leberkas chislic ground round tri-tip beef ribs. Boudin porchetta burgdoggen rump cupim landjaeger, short ribs filet mignon turducken ground round t-bone pork loin kevin strip steak.
-<br />
-                Spicy jalapeno bacon ipsum dolor amet buffalo tri-tip jerky flank. 
-                Beef strip steak short ribs, ribeye landjaeger spare ribs brisket pork chop shoulder tail porchetta. 
-                Boudin pork loin swine ball tip meatloaf, short loin pastrami leberkas chislic ground round tri-tip beef ribs. Boudin porchetta burgdoggen rump cupim landjaeger, short ribs filet mignon turducken ground round t-bone pork loin kevin strip steak.
-<br />
-                Pig burgdoggen pork loin swine brisket picanha sausage. 
-                Pork chop tail alcatra pork belly turducken bacon salami. 
-                Shoulder pastrami t-bone, shank drumstick burgdoggen meatloaf biltong kielbasa alcatra venison sausage flank ground round buffalo. 
-                Pig pork loin t-bone short ribs, tongue hamburger brisket tri-tip pork belly beef pork cow turducken venison leberkas. Swine leberkas kielbasa pastrami ground round chuck.
-<br />
+                    Aspiring Full Stack Developer, with a passion to work hard and get the job done right.
+                    Goal oriented along with a team-first mentality to accomplish any task that is presented to me. Coming from a background as a professional chef and kitchen manager, I approach everything with a plan and a drive to accomplish whatever the task may be.
                 </p>
+
+
+
+                <br />
+                <h2>Skills</h2>
+
+
+                <li>HTML + CSS</li>
+                <li>JavaScript</li>
+                <li>TypeScript Basics</li>
+                <li>BootStrap</li>
+                <li>Materialize</li>
+                <li>React</li>
+                <li>MySQL + NoSQL</li>
+
+                <br />
+                <br />
+
+                <h3>What I like to Do</h3>
+                <li>Golfing</li>
+                <li>Hanging out with friends</li>
+                <li>Video Games</li>
+                <li>Learning new things</li>
+                <br />
+                <br />
+
+
+
             </Container>
         </Jumbotron>
     );

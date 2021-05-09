@@ -1,5 +1,5 @@
 .AboutJumbo {
-    font-family: 'Merriweather', serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
     color: cyan;
     text-align:center;
     border-bottom: solid 2px white;
@@ -20,4 +20,15 @@
       100% {
         background-position: 0% 50%;
       }
+    }
+
+    .skills{  
+      align-items: center!important;
+      /* list-style-position: inside; */
+      /* list-style: none; */
+      align-items: inherit;
+    }
+
+    #AboutMe{
+      font-size: 48px;
     }

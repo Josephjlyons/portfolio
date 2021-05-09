@@ -23,7 +23,7 @@ const Header = () => {
                     }
                   },
                   color: {
-                    value: "#F50000",
+                    value: "#FFFFFF",
                     animation: {
                       enable: true,
                       speed: 15,
@@ -32,8 +32,8 @@ const Header = () => {
                   },
                   line_linked: {
                     enable: true,
-                    distance: 75,
-                    color: '#F50000',
+                    distance: 0,
+                    color: '#FFFFFF',
                     opacity: 0.4,
                     width: 3.5
                   },
@@ -61,7 +61,7 @@ const Header = () => {
                     }
                   },
                   color: {
-                    value: "#F50000",
+                    value: "#FFFFFF",
                     animation: {
                       enable: true,
                       speed: 15,
@@ -70,8 +70,8 @@ const Header = () => {
                   },
                   line_linked: {
                     enable: true,
-                    distance: 75,
-                    color: '#F50000',
+                    distance: 0,
+                    color: '#FFFFFF',
                     opacity: 0.4,
                     width: 3.5
                   },

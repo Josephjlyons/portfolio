@@ -11,9 +11,9 @@ const NavBar = () => {
       <Nav>
         <ul className='navList'>
 
-          <li><Link to="About" spy={true} smooth={true}>About</Link></li>
+          <Link to="About" spy={true} smooth={true}>About</Link>
           <br />
-          <li><Link to="Portfolio" spy={true} smooth={true}>Portfolio</Link></li>
+          <Link to="Portfolio" spy={true} smooth={true}>Portfolio</Link>
         </ul>
       </Nav>
     </div>
