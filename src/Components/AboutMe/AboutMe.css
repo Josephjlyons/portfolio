@@ -24,8 +24,6 @@
 
     .skills{  
       align-items: center!important;
-      /* list-style-position: inside; */
-      /* list-style: none; */
       align-items: inherit;
     }
 
