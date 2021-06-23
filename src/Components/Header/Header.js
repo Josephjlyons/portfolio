@@ -87,6 +87,8 @@ const Header = () => {
 
             <a className='social' href="tel:603-707-1045"><i className="fontawesome fas fa-phone-square-alt"></i></a>
 
+            <a className='social' href='https://docs.google.com/document/d/1tOiuuWwb832xZwRyNu1a3icH1ETNaA2X4rQ5WXu-kzk/edit?usp=sharing' ><i className="fontawesome far fa-file"></i></a>
+
           </Col>
         </Row>
       </Container>

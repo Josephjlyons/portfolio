@@ -9,8 +9,7 @@ const AboutMe = () => {
                 <h1 id='AboutMe'>About Me</h1>
                 <p>
 
-                    Aspiring Full Stack Developer, with a passion to work hard and get the job done right.
-                    Goal oriented along with a team-first mentality to accomplish any task that is presented to me. Coming from a background as a professional chef and kitchen manager, I approach everything with a plan and a drive to accomplish whatever the task may be.
+                Full Stack Developer with strong teamwork and coordination skills, eye for design and streamlined applications. Strong drive to see problems out and come up with an effective solution in a timely manner. Always learning, refining and studying technologies as they advance to keep up to date. Interested in joining a company to help grow and innovate new products. Graduate of University of New Hampshire with a Certificate in Full Stack Web Development (4.0).
                 </p>
 
 
