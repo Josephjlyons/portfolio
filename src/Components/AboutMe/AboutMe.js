@@ -9,33 +9,54 @@ const AboutMe = () => {
                 <h1 id='AboutMe'>About Me</h1>
                 <p>
 
-                Full Stack Developer with strong teamwork and coordination skills, eye for design and streamlined applications. Strong drive to see problems out and come up with an effective solution in a timely manner. Always learning, refining and studying technologies as they advance to keep up to date. Interested in joining a company to help grow and innovate new products. Graduate of University of New Hampshire with a Certificate in Full Stack Web Development (4.0).
+                    Full Stack Developer with strong teamwork and coordination skills, eye for design and streamlined applications. 
+                    Strong drive to see problems out and come up with an effective solution in a timely manner. 
+                    Always learning, refining and studying technologies as they advance to keep up to date. 
+                    Interested in joining a company to help grow and innovate new products. Graduate of University of New Hampshire with a Certificate in Full Stack Web Development (4.0).
                 </p>
 
 
 
                 <br />
-                <h2>Skills</h2>
+                <div>
+                <h2>Techinal Skills</h2>
 
 
-                <li>HTML + CSS</li>
-                <li>JavaScript</li>
-                <li>TypeScript Basics</li>
-                <li>BootStrap</li>
-                <li>Materialize</li>
-                <li>React</li>
-                <li>MySQL + NoSQL</li>
+
+                    <li >HTML5</li>
+                    <li>CSS3</li>
+                    <li>React</li>
+                    <li>JavaScript</li>
+                    <li>JQuery</li>
+                    <li>ExpressJS</li>
+                    <li>NodeJS</li>
+                    <li>Rest API</li>
+                    <li>JSON</li>
+                    <li>SEO</li>
+                    <li>SQL</li>
+                    <li>NOSQL</li>
+                    <li>MongoDB</li>
+                    <li>Github/Git</li>
+                    <li>BootStrap</li>
+                    <li>Materialize</li>
+                    <li>Firebase</li>
+                    <li>Heroku</li>
+
+                </div>
+                <br />
+                <div>
+                    <h2>Soft Skills</h2>
+                    <li>Team Player</li>
+                    <li>Problem Solver</li>
+                    <li>Project/Time Management</li>
+                    <li>Competitve Drive</li>
+                    <li>Valuable Work Ethic</li>
+                
+                </div>
 
                 <br />
                 <br />
 
-                <h3>What I like to Do</h3>
-                <li>Golfing</li>
-                <li>Hanging out with friends</li>
-                <li>Video Games</li>
-                <li>Learning new things</li>
-                <br />
-                <br />
 
 
 
