@@ -53,8 +53,8 @@ const Project = () => {
 
                                     </ListGroup>
 
-                                    <a className='linkText' href="https://josephjlyons.github.io/DraughtPicker/" target="_blank" rel="noreferrer noopener" class="btn btn-lg">View the Website!</a>
-                                    <a className='linkText' href="https://github.com/Josephjlyons/DraughtPicker" target="_blank" rel="noreferrer noopener" class="btn btn-lg">View the Code!</a>
+                                    <a className='linkText' href="https://josephjlyons.github.io/DraughtPicker/" target="_blank" rel="noreferrer noopener" class="btn btn-lg">Website</a>
+                                    <a className='linkText' href="https://github.com/Josephjlyons/DraughtPicker" target="_blank" rel="noreferrer noopener" class="btn btn-lg">Github Repository</a>
                                 </Col>
                             </Row>
 
@@ -66,7 +66,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h3  className='projTitle'>Dungeons and Dragon Quick Character Creator Express</h3>
+                            <h3 className='projTitle'>Dungeons and Dragon Quick Character Creator Express</h3>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -92,8 +92,8 @@ const Project = () => {
                                         <ListGroup.Item className='tech-list bg-transparent'>Sequelize</ListGroup.Item>
 
                                     </ListGroup>
-                                    <a className='linkText' href="https://character-creator-express.herokuapp.com/login" target="_blank" rel="noreferrer noopener" class="btn btn-lg">View the Website!</a>
-                                    <a className='linkText' href="https://github.com/Josephjlyons/dnd-quick-character-creator" target="_blank" rel="noreferrer noopener" class="btn btn-lg">View the Code!</a>
+                                    <a className='linkText' href="https://character-creator-express.herokuapp.com/login" target="_blank" rel="noreferrer noopener" class="btn btn-lg">Website</a>
+                                    <a className='linkText' href="https://github.com/Josephjlyons/dnd-quick-character-creator" target="_blank" rel="noreferrer noopener" class="btn btn-lg">Github Repository</a>
                                 </Col>
                             </Row>
 
@@ -104,7 +104,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h3  className='projTitle'>Express Notes</h3>
+                            <h3 className='projTitle'>Express Notes</h3>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -129,8 +129,8 @@ const Project = () => {
 
                                     </ListGroup>
 
-                                    <a className='linkText' href="http://morning-cove-82071.herokuapp.com/" target="_blank" rel="noreferrer noopener" class="btn btn-lg">View the Website!</a>
-                                    <a className='linkText' href="https://github.com/Josephjlyons/express-notes" target="_blank" rel="noreferrer noopener" class="btn btn-lg">View the Code!</a>
+                                    <a className='linkText' href="http://morning-cove-82071.herokuapp.com/" target="_blank" rel="noreferrer noopener" class="btn btn-lg">Website</a>
+                                    <a className='linkText' href="https://github.com/Josephjlyons/express-notes" target="_blank" rel="noreferrer noopener" class="btn btn-lg">Github Repository</a>
 
                                 </Col>
                             </Row>
@@ -141,7 +141,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h3  className='projTitle'>Team Generator</h3>
+                            <h3 className='projTitle'>Team Generator</h3>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -166,7 +166,7 @@ const Project = () => {
 
                                     </ListGroup>
 
-                                    <a className='linkText' href="https://github.com/Josephjlyons/Team-Profile-Generator" target="_blank" rel="noreferrer noopener" class="btn btn-lg">View the Code!</a>
+                                    <a className='linkText' href="https://github.com/Josephjlyons/Team-Profile-Generator" target="_blank" rel="noreferrer noopener" class="btn btn-lg">Github Repository</a>
 
                                 </Col>
                             </Row>
@@ -177,7 +177,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h3  className='projTitle'>Fitness Tracker</h3>
+                            <h3 className='projTitle'>Fitness Tracker</h3>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -202,8 +202,8 @@ const Project = () => {
                                         <ListGroup.Item className='tech-list bg-transparent'>NoSQL</ListGroup.Item>
 
                                     </ListGroup>
-                                    <a className='linkText' href="https://rocky-waters-93224.herokuapp.com/" target="_blank" rel="noreferrer noopener" class="btn btn-lg">View the Website!</a>
-                                    <a className='linkText' href="https://github.com/Josephjlyons/fitness-tracker" target="_blank" rel="noreferrer noopener" class="btn btn-lg">View the Code!</a>
+                                    <a className='linkText' href="https://rocky-waters-93224.herokuapp.com/" target="_blank" rel="noreferrer noopener" class="btn btn-lg">Website</a>
+                                    <a className='linkText' href="https://github.com/Josephjlyons/fitness-tracker" target="_blank" rel="noreferrer noopener" class="btn btn-lg">Github Repository</a>
                                 </Col>
                             </Row>
                         </Container>
@@ -213,7 +213,7 @@ const Project = () => {
                 <Carousel.Item>
                     <Jumbotron className='portJumbo' fluid>
                         <Container>
-                            <h3  className='projTitle'>Drag and Drop Project Management</h3>
+                            <h3 className='projTitle'>Drag and Drop Project Management</h3>
                             <Row>
                                 <Col>
                                     <Figure.Image
@@ -238,7 +238,7 @@ const Project = () => {
 
                                     </ListGroup>
 
-                                    <a className='linkText' href="https://github.com/Josephjlyons/Drag-Drop-TypeScript" target="_blank" rel="noreferrer noopener" class="btn btn-lg">View the Code!</a>
+                                    <a className='linkText' href="https://github.com/Josephjlyons/Drag-Drop-TypeScript" target="_blank" rel="noreferrer noopener" class="btn btn-lg">Github Repository</a>
                                 </Col>
                             </Row>
 
