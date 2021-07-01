@@ -22,6 +22,11 @@ align-items: center;
 
 }
 
+.socialE{
+font-size: 20px;
+text-decoration: none;
+}
+
 .social{
     padding: 10px;
 }
