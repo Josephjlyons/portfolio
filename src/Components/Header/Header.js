@@ -79,8 +79,9 @@ const Header = () => {
               }}
             />
             <h1>Joseph J Lyons</h1>
-            <a className='social' href="mailto:josephjlyons90@gmail.com"><i className="fontawesome fas fa-envelope-square"></i></a>
-
+            <br />
+            <a className='socialE' href="mailto:josephjlyons90@gmail.com"><p Classname='socialE'>josephjlyons90@gmail.com</p></a>
+         
             <a className='social' href="https://github.com/Josephjlyons"><i className=" fontawesome fab fa-github-square"></i></a>
 
             <a className='social' href="https://www.linkedin.com/in/joseph-lyons-0a2630200/"><i className=" fontawesome fab fa-linkedin"></i></a>
